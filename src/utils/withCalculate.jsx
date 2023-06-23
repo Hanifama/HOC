@@ -5,7 +5,7 @@ function withCalculate(OriginalComponent) {
     const [nomor, setNomor] = useState(0);
 
     const handleNomor = () => {
-      setNomor(nomor + props.counter);
+      setNomor(nomor + props.nilai);
     };
 
     return (
